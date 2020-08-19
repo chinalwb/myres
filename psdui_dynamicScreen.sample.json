@@ -10,6 +10,11 @@
           "parameters": {
             "text": "Where do you live?"
           },
+          "styles": {
+            "properties": {
+              "color": "#FF0FF0"
+            }
+          },
           "width": 12
         }
       ]
