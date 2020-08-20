@@ -12,7 +12,8 @@
           },
           "styles": {
             "properties": {
-              "color": "#00000F"
+              "color": "#00000F",
+              "fontSize": 
             }
           },
           "width": 12
@@ -66,6 +67,19 @@
             "lowerText": "45202"
           },
           "width": 6
+        }
+      ]
+    },
+    {
+      "name": "invalidAddress",
+      "components": [
+        {
+          "name": "invalidAddress",
+          "type": "IconAndTextCta",
+          "parameters": {
+            "text": "No, I live in a different address"
+          },
+          "width": 12
         }
       ]
     },
