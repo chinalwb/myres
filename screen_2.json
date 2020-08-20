@@ -10,6 +10,12 @@
           "parameters": {
             "text": "Where do you live?"
           },
+          "styles": {
+            "properties": {
+              "color": "#00000F",
+              "fontSize": 18
+            }
+          },
           "width": 12
         }
       ]
@@ -24,7 +30,7 @@
             "upperText": "Street address",
             "lowerText": "Joe Nuxhall Way"
           },
-          "width": 12
+          "width": 8
         },
         {
           "name": "apt",
@@ -42,7 +48,7 @@
             "upperText": "City",
             "lowerText": "Cincinnati"
           },
-          "width": 12
+          "width": 4
         },
         {
           "name": "state",
@@ -51,7 +57,7 @@
             "upperText": "State",
             "lowerText": "OH"
           },
-          "width": 6
+          "width": 4
         },
         {
           "name": "zip",
@@ -60,13 +66,21 @@
             "upperText": "Zip",
             "lowerText": "45202"
           },
-          "width": 6
+          "width": 4
         }
       ]
     },
     {
-      "name": "primaryCTA",
+      "name": "invalidAddress",
       "components": [
+        {
+          "name": "invalidAddress",
+          "type": "IconAndTextCta",
+          "parameters": {
+            "text": "No, I live in a different address"
+          },
+          "width": 12
+        },
         {
           "name": "primaryCTA",
           "type": "IconAndTextCta",

@@ -10,6 +10,12 @@
           "parameters": {
             "text": "Where do you live?"
           },
+          "styles": {
+            "properties": {
+              "color": "#9c0c0F",
+              "fontSize": 18
+            }
+          },
           "width": 12
         }
       ]
@@ -27,22 +33,22 @@
           "width": 12
         },
         {
-          "name": "apt",
-          "type": "SummaryEditCell",
-          "parameters": {
-            "upperText": "Apt / Suite / Other",
-            "lowerText": "BBL Apt 5"
-          },
-          "width": 12
-        },
-        {
           "name": "city",
           "type": "SummaryEditCell",
           "parameters": {
             "upperText": "City",
             "lowerText": "Cincinnati"
           },
-          "width": 12
+          "width": 6
+        },
+        {
+          "name": "apt",
+          "type": "SummaryEditCell",
+          "parameters": {
+            "upperText": "Apt / Suite / Other",
+            "lowerText": "BBL Apt 5"
+          },
+          "width": 6
         },
         {
           "name": "state",
@@ -51,7 +57,7 @@
             "upperText": "State",
             "lowerText": "OH"
           },
-          "width": 6
+          "width": 12
         },
         {
           "name": "zip",
@@ -60,20 +66,28 @@
             "upperText": "Zip",
             "lowerText": "45202"
           },
-          "width": 6
+          "width": 4
         }
       ]
     },
     {
-      "name": "primaryCTA",
+      "name": "invalidAddress",
       "components": [
+        {
+          "name": "invalidAddress",
+          "type": "IconAndTextCta",
+          "parameters": {
+            "text": "No, I live in a different address"
+          },
+          "width": 6
+        },
         {
           "name": "primaryCTA",
           "type": "IconAndTextCta",
           "parameters": {
             "text": "Continue"
           },
-          "width": 12
+          "width": 6
         }
       ]
     }
