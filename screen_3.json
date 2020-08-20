@@ -77,7 +77,7 @@
           "name": "invalidAddress",
           "type": "IconAndTextCta",
           "parameters": {
-            "text": "No, I live in a different address"
+            "text": "Cancel"
           },
           "width": 6
         },
@@ -85,7 +85,7 @@
           "name": "primaryCTA",
           "type": "IconAndTextCta",
           "parameters": {
-            "text": "Continue"
+            "text": "Save"
           },
           "width": 6
         }
