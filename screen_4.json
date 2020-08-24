@@ -26,7 +26,7 @@
           "styles": {
             "properties": {
               "color": "#FF0c0F",
-              "fontWeight": "bold"
+              "fontWeight": "normal"
             }
           },
           "width": 12
