@@ -25,7 +25,8 @@
           },
           "styles": {
             "properties": {
-              "color": "#FF0c0F"
+              "color": "#FF0c0F",
+              "fontWeight": "bold"
             }
           },
           "width": 12
