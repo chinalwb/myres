@@ -1,0 +1,50 @@
+{
+  "name": "driverAccidentsViolations",
+  "componentGroups": [
+    {
+      "name": "header",
+      "components": [
+        {
+          "name": "addressConfirmTitle",
+          "type": "H1",
+          "parameters": {
+            "text": "This is H1"
+          },
+          "styles": {
+            "properties": {
+              "color": "#9c0c0F",
+              "fontSize": 18
+            }
+          },
+          "width": 12
+        },
+        {
+          "name": "addressConfirmTitle",
+          "type": "H2",
+          "parameters": {
+            "text": "This is H2"
+          },
+          "styles": {
+            "properties": {
+              "color": "#FF0c0F"
+            }
+          },
+          "width": 12
+        },
+        {
+          "name": "addressConfirmTitle",
+          "type": "H3",
+          "parameters": {
+            "text": "This is H3"
+          },
+          "styles": {
+            "properties": {
+              "color": "#9c880F"
+            }
+          },
+          "width": 12
+        }
+      ]
+    }
+  ]
+}
