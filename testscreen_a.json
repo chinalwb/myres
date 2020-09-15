@@ -32,8 +32,8 @@
           "name": "accidentDate",
           "parameters": {
             "title": "Date of accident",
-            "dateValueFormat": "YYYY-MM-DD",
-            "dateDisplayFormat": "MMMM YYYY"
+            "dateValueFormat": "yyyy-MM-DD",
+            "dateDisplayFormat": "MMMM yyyy"
           },
           "validations": [
             {
