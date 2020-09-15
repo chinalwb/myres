@@ -1,0 +1,70 @@
+{
+  "sectionName": "accidentsViolations",
+  "name": "addAccident",
+  "componentGroups": [
+    {
+      "name": "title",
+      "components": [
+        {
+          "category": "TextBox",
+          "kind": "Header1",
+          "name": "title",
+          "parameters": {
+            "text": "Add the accident"
+          }
+        },
+        {
+          "category": "TextBox",
+          "kind": "Header2",
+          "name": "subtitle",
+          "parameters": {
+            "text": "Only add accidents in the past 5 years"
+          }
+        }
+      ]
+    },
+    {
+      "name": "accidentDataFields",
+      "components": [
+        {
+          "category": "DataField",
+          "kind": "DatePicker",
+          "name": "accidentDate",
+          "parameters": {
+            "title": "Date of accident",
+            "dateValueFormat": "YYYY-MM-DD",
+            "dateDisplayFormat": "MMMM YYYY"
+          },
+          "validations": [
+            {
+              "errorMessage": "Should be before minimum date",
+              "metadata": {
+                "category": "Datetime",
+                "minDatetime": "2020-09-11"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actionEnableRules": [
+    {
+      "requiredDataFields": [
+        {
+          "componentGroupName": "accidentDataFields",
+          "componentName": "accidentDescription"
+        },
+        {
+          "componentGroupName": "accidentDataFields",
+          "componentName": "accidentDate"
+        }
+      ],
+      "actionToEnable": {
+        "componentGroupName": "ctas",
+        "componentName": "primaryCta"
+      }
+    }
+  ],
+  "actionNextStepRules": []
+}
