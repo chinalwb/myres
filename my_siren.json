@@ -1,5 +1,7 @@
 {
   "com.pact.sduiDev": {
-    "minVersionName": "2.0.0"
+    "minVersionName": "2.0.0",
+    "enable": true,
+    "force": false
   }
 }
