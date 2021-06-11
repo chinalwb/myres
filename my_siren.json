@@ -1,13 +1,8 @@
 {
-  "com.pact.sduiDev": {
-    "minVersionName": "2.0.0",
-    "enable": true,
-    "force": false
+  "co.pactplatform.nations.development": {
+    "minVersionName": "2.2.0"
   },
-"co.pactplatform.nations.staging": {
-    "minVersionName": "1.1.0"
-  },
-  "co.pactplatform.nations.production": {
-    "minVersionName": "1.0.0"
+  "com.nationsinsurance.development": {
+    "minVersionName": "2.2.0"
   }
 }
