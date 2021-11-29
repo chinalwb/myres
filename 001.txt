@@ -1,2 +1,5 @@
-staging file 001 - oh great~:
+
+staging file 001 - oh great~: hello in master~
+
 update in staging branch
+
