@@ -4,5 +4,8 @@
   },
   "com.nationsinsurance.development": {
     "minVersionName": "2.2.0"
+  },
+  "co.pactplatform.pinpoint.development": {
+    "minVersionName": "2.0.0"
   }
 }
