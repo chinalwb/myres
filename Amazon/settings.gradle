@@ -1,0 +1,5 @@
+rootProject.name = "McNaire"
+include ':app'
+
+// include ':sdk'
+// project(':sdk').projectDir = new File('/Users/pact/Documents/Pact/Android/sdui/pact-sdui-poc-android/app')

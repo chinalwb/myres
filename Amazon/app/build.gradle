@@ -1,0 +1,100 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+apply plugin: 'kotlin-kapt'
+
+
+android {
+    compileSdkVersion 31
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.pact.sdui"
+        minSdkVersion 22
+        targetSdkVersion 31
+        versionCode 5
+        versionName "1.0.2"
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+        qa {
+            initWith debug
+            minifyEnabled false
+            shrinkResources false
+            matchingFallbacks = ['debug']
+        }
+
+        release {
+            // signingConfig signingConfigs.release
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    packagingOptions {
+        exclude 'META-INF/*.kotlin_module'
+    }
+
+    flavorDimensions "default"
+
+    productFlavors {
+        development {
+            applicationId "co.pactplatform.mcnaire.development"
+            resValue "string", "app_name", "McNaire Dev"
+            resValue 'string', 'SIREN_JSON_DOCUMENT_URL', '"https://raw.githubusercontent.com/martingalecorp/pact-android-siren-min-version/development/mcnaire_version.json"'
+            manifestPlaceholders = [
+                    sdk_key:"pk_KrPVz6TZ4IZ9EtFJr1bOdS6AmbSNl",
+                    sdk_environment:"development",
+                    sdk_supportPhoneNumber:"+1 (888) 807-2559"
+            ]
+        }
+
+        staging {
+            applicationId "co.pactplatform.mcnaire.staging"
+            resValue "string", "app_name", "McNaire Stag"
+            resValue 'string', 'SIREN_JSON_DOCUMENT_URL',  '"https://raw.githubusercontent.com/martingalecorp/pact-android-siren-min-version/master/mcnaire_version.json"'
+            manifestPlaceholders = [
+                    sdk_key:"pk_KrPVz6TZ4IZ9EtFJr1bOdS6AmbSNl",
+                    sdk_environment:"staging",
+                    sdk_supportPhoneNumber:"+1 (888) 807-2559"
+            ]
+        }
+
+        production {
+            applicationId "co.pactplatform.mcnaire.production"
+            resValue "string", "app_name", "McNaire"
+            resValue 'string', 'SIREN_JSON_DOCUMENT_URL', '"https://raw.githubusercontent.com/martingalecorp/pact-android-siren-min-version/master/mcnaire_version.json`"'
+            manifestPlaceholders = [
+                    sdk_key:"pk_KrPVz6TZ4IZ9EtFJr1bOdS6AmbSNl",
+                    sdk_environment:"production",
+                    sdk_supportPhoneNumber:"+1 (888) 807-2559"
+            ]
+        }
+    }
+}
+
+dependencies {
+    // implementation project(path: ':pactplatform')
+
+//    implementation project(path: ':sdk')
+    debugImplementation 'com.pact.android:pact-server-driven-ui:1.0.4'
+    qaImplementation 'com.pact.android:pact-server-driven-ui:1.0.4'
+    releaseImplementation 'com.pact.android:pact-server-driven-ui:1.0.4'
+}
