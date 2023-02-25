@@ -1,5 +1,5 @@
 #---------------------------------------------------#
-## 更新：2023-02-23 11:05:43
+## 更新：2023-02-25 11:46:38
 ## 感谢：https://github.com/Hackl0us/SS-Rule-Snippet
 ## 链接：https://doata.net/link/v7V9gxaedBloBBfz?clash=1
 #---------------------------------------------------#
@@ -34,56 +34,56 @@ secret: ''
 
 
 proxies:
-  - {"name":"🇭🇰 香港 | V2 | 01","type":"vmess","server":"in.hceok.com","port":37109,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇭🇰 香港 | V2 | 02","type":"vmess","server":"var.heataek.com","port":37110,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇭🇰 香港 | V1 | 01","type":"vmess","server":"in.hceok.com","port":11101,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇭🇰 香港 | V1 | 02","type":"vmess","server":"var.heataek.com","port":11102,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇭🇰 香港 | V1 | 03","type":"vmess","server":"to.hceok.com","port":11106,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇭🇰 香港 | V1 | 04","type":"vmess","server":"qui.heataek.com","port":2103,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇭🇰 香港 | V1 | 05","type":"vmess","server":"in.hceok.com","port":11802,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇭🇰 香港 | V1 | 06","type":"vmess","server":"qui.heataek.com","port":11105,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇭🇰 香港 | V1 | 直连","type":"vmess","server":"line.acetace.com","port":39589,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇨🇳 台湾 | V2 | 01","type":"vmess","server":"one.jcocp.com","port":37402,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇨🇳 台湾 | V2 | 02","type":"vmess","server":"two.jcocp.com","port":31202,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇨🇳 台湾 | V1 | 01","type":"vmess","server":"two.jcocp.com","port":32602,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇨🇳 台湾 | V1 | 02","type":"vmess","server":"one.jcocp.com","port":31093,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇨🇳 台湾 | V1 | 03","type":"vmess","server":"one.jcocp.com","port":37121,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇯🇵 日本 | V2 | 01","type":"vmess","server":"one.jcocp.com","port":37308,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇯🇵 日本| V2 | 02","type":"vmess","server":"one.jcocp.com","port":37112,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇯🇵 日本 | V1 | 01","type":"vmess","server":"two.jcocp.com","port":11034,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇯🇵 日本 | V1 | 02","type":"vmess","server":"two.jcocp.com","port":2301,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇯🇵 日本 | V1 | 03","type":"vmess","server":"two.jcocp.com","port":3301,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇯🇵 日本 | V1 | 04","type":"vmess","server":"one.jcocp.com","port":1031,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇯🇵 日本 | V1 | 05","type":"vmess","server":"one.jcocp.com","port":1032,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇸🇬 新加坡 | V2 | 01","type":"vmess","server":"ovo.swvwg.com","port":33207,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇸🇬 新加坡 | V2 | 02","type":"vmess","server":"ovo.swvwg.com","port":37113,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇸🇬 新加坡 | V1 | 01","type":"vmess","server":"xyz.swvwg.com","port":11209,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇸🇬 新加坡 | V1 | 02","type":"vmess","server":"xyz.swvwg.com","port":11206,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇸🇬 新加坡 | V1 | 03","type":"vmess","server":"xyz.swvwg.com","port":2201,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇸🇬 新加坡 | V1 | 04","type":"vmess","server":"xyz.swvwg.com","port":3201,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇺🇲 美国 | V1 | 01","type":"vmess","server":"bcr.ueves.com","port":11503,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇺🇲 美国 | V1 | 02","type":"vmess","server":"bcr.ueves.com","port":11502,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇺🇲 美国 | V1 | 03","type":"vmess","server":"aev.ueves.com","port":2501,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇺🇲 美国 | V1 | 04","type":"vmess","server":"aev.ueves.com","port":11501,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇰🇷 韩国 | V1 | 01","type":"vmess","server":"co.oyvyt.com","port":11401,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇰🇷 韩国 | V1 | 02","type":"vmess","server":"bg.oyvyt.com","port":1402,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇷🇺 俄罗斯 | V1 | 01","type":"vmess","server":"co.oyvyt.com","port":51908,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇵🇭 菲律宾 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":11907,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇮🇳 印度 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":11901,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇹🇭 泰国 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":11906,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇬🇧 英国 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":11903,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇩🇪 德国 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":51909,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇨🇦 加拿大 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":48312,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇦🇺 澳大利亚 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":37111,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇵🇰 巴基斯坦 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":37115,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇨🇱 智利  | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":37143,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇹🇷 土耳其 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":11905,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇧🇷 巴西 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":11902,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇦🇷 阿根廷 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":11904,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇸🇬 试用 | 新加坡 | 01 | 限 20 Mbs","type":"vmess","server":"bcr.ueves.com","port":10001,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇸🇬 试用 | 新加坡 | 02 | 限 20 Mbs","type":"vmess","server":"bcr.ueves.com","port":10004,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇯🇵 试用 | 日本 | 01 | 限 20 Mbs","type":"vmess","server":"bcr.ueves.com","port":10002,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"🇯🇵 试用 | 日本 | 02 | 限 20 Mbs","type":"vmess","server":"bcr.ueves.com","port":10003,"uuid":"280d9a2c-55cc-355a-87a6-9941e3c30ca9","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇭🇰 香港 | V2 | 01","type":"vmess","server":"in.hceok.com","port":37109,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇭🇰 香港 | V2 | 02","type":"vmess","server":"var.heataek.com","port":37110,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇭🇰 香港 | V1 | 01","type":"vmess","server":"in.hceok.com","port":11101,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇭🇰 香港 | V1 | 02","type":"vmess","server":"var.heataek.com","port":11102,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇭🇰 香港 | V1 | 03","type":"vmess","server":"to.hceok.com","port":11106,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇭🇰 香港 | V1 | 04","type":"vmess","server":"qui.heataek.com","port":2103,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇭🇰 香港 | V1 | 05","type":"vmess","server":"in.hceok.com","port":11802,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇭🇰 香港 | V1 | 06","type":"vmess","server":"qui.heataek.com","port":11105,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇭🇰 香港 | V1 | 直连","type":"vmess","server":"line.acetace.com","port":39589,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇨🇳 台湾 | V2 | 01","type":"vmess","server":"one.jcocp.com","port":37402,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇨🇳 台湾 | V2 | 02","type":"vmess","server":"two.jcocp.com","port":31202,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇨🇳 台湾 | V1 | 01","type":"vmess","server":"two.jcocp.com","port":32602,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇨🇳 台湾 | V1 | 02","type":"vmess","server":"one.jcocp.com","port":31093,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇨🇳 台湾 | V1 | 03","type":"vmess","server":"one.jcocp.com","port":37121,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇯🇵 日本 | V2 | 01","type":"vmess","server":"one.jcocp.com","port":37308,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇯🇵 日本| V2 | 02","type":"vmess","server":"one.jcocp.com","port":37112,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇯🇵 日本 | V1 | 01","type":"vmess","server":"two.jcocp.com","port":11034,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇯🇵 日本 | V1 | 02","type":"vmess","server":"two.jcocp.com","port":2301,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇯🇵 日本 | V1 | 03","type":"vmess","server":"two.jcocp.com","port":3301,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇯🇵 日本 | V1 | 04","type":"vmess","server":"one.jcocp.com","port":1031,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇯🇵 日本 | V1 | 05","type":"vmess","server":"one.jcocp.com","port":1032,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇸🇬 新加坡 | V2 | 01","type":"vmess","server":"ovo.swvwg.com","port":33207,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇸🇬 新加坡 | V2 | 02","type":"vmess","server":"ovo.swvwg.com","port":37113,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇸🇬 新加坡 | V1 | 01","type":"vmess","server":"xyz.swvwg.com","port":11209,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇸🇬 新加坡 | V1 | 02","type":"vmess","server":"xyz.swvwg.com","port":11206,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇸🇬 新加坡 | V1 | 03","type":"vmess","server":"xyz.swvwg.com","port":2201,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇸🇬 新加坡 | V1 | 04","type":"vmess","server":"xyz.swvwg.com","port":3201,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇺🇲 美国 | V1 | 01","type":"vmess","server":"bcr.ueves.com","port":11503,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇺🇲 美国 | V1 | 02","type":"vmess","server":"bcr.ueves.com","port":11502,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇺🇲 美国 | V1 | 03","type":"vmess","server":"aev.ueves.com","port":2501,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇺🇲 美国 | V1 | 04","type":"vmess","server":"aev.ueves.com","port":11501,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇰🇷 韩国 | V1 | 01","type":"vmess","server":"co.oyvyt.com","port":11401,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇰🇷 韩国 | V1 | 02","type":"vmess","server":"bg.oyvyt.com","port":1402,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇷🇺 俄罗斯 | V1 | 01","type":"vmess","server":"co.oyvyt.com","port":51908,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇵🇭 菲律宾 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":11907,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇮🇳 印度 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":11901,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇹🇭 泰国 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":11906,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇬🇧 英国 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":11903,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇩🇪 德国 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":51909,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇨🇦 加拿大 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":48312,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇦🇺 澳大利亚 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":37111,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇵🇰 巴基斯坦 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":37115,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇨🇱 智利  | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":37143,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇹🇷 土耳其 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":11905,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇧🇷 巴西 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":11902,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇦🇷 阿根廷 | V1 | 01","type":"vmess","server":"bg.oyvyt.com","port":11904,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇸🇬 试用 | 新加坡 | 01 | 限 20 Mbs","type":"vmess","server":"bcr.ueves.com","port":10001,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇸🇬 试用 | 新加坡 | 02 | 限 20 Mbs","type":"vmess","server":"bcr.ueves.com","port":10004,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇯🇵 试用 | 日本 | 01 | 限 20 Mbs","type":"vmess","server":"bcr.ueves.com","port":10002,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"🇯🇵 试用 | 日本 | 02 | 限 20 Mbs","type":"vmess","server":"bcr.ueves.com","port":10003,"uuid":"bb1d0863-d310-3b85-a414-3460df3cfd4b","alterId":0,"cipher":"auto","udp":true}
 
 proxy-groups:
 -
@@ -896,6 +896,7 @@ rules:
 - DOMAIN-SUFFIX,bscscan.com,Proxy
 - DOMAIN-SUFFIX,etherscan.io,Proxy
 - DOMAIN-SUFFIX,socloud.cc,Proxy
+- DOMAIN-SUFFIX,openai.com,Proxy
 # Binance
 - DOMAIN-SUFFIX,binance.cc,Proxy
 - DOMAIN-SUFFIX,binance.charity,Proxy
